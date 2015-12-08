@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key><string>PSGroupCell</string>
+			<key>label</key><string>Default Page</string>
+      		<key>footerText</key><string></string>
+		</dict>
+		<dict>
+            <key>cell</key><string>PSSegmentCell</string>
+            <key>defaults</key><string>com.brycedev.fern</string>
+			<key>default</key><integer>0</integer>
+            <key>key</key><string>defaultPage</string>
+            <key>PostNotification</key><string>com.brycedev.fern.prefschanged</string>
+            <key>validTitles</key><array>
+                <string>Favorites</string>
+                <string>Apps</string>
+            </array>
+            <key>validValues</key><array>
+                <integer>0</integer>
+                <integer>1</integer>
+            </array>
+        </dict>
+		<dict>
+			<key>cell</key><string>PSGroupCell</string>
+			<key>label</key><string></string>
+            <key>footerText</key><string></string>
+		</dict>
+		<dict>
+			<key>cell</key><string>PSSwitchCell</string>
+			<key>default</key><false/>
+			<key>defaults</key><string>com.brycedev.fern</string>
+			<key>key</key><string>blur</string>
+			<key>label</key><string>Enable Blur</string>
+			<key>PostNotification</key><string>com.brycedev.fern.prefschanged</string>
+		</dict>
+		<dict>
+			<key>cell</key><string>PSGroupCell</string>
+			<key>label</key><string>Background Darkness</string>
+            <key>footerText</key><string></string>
+		</dict>
+		<dict>
+		    <key>cell</key><string>PSSliderCell</string>
+            <key>showValue</key><true/>
+            <key>default</key><real>5.0</real>
+            <key>defaults</key><string>com.brycedev.fern</string>
+			<key>key</key><string>darkness</string>
+			<key>max</key><real>10.0</real>
+			<key>min</key><real>0.0</real>
+			<key>PostNotification</key><string>com.brycedev.fern.prefschanged</string>
+		</dict>
+		<dict>
+			<key>cell</key><string>PSGroupCell</string>
+			<key>label</key><string>Apps View</string>
+            <key>footerText</key><string></string>
+		</dict>
+		<dict>
+            <key>cell</key><string>PSSegmentCell</string>
+            <key>defaults</key><string>com.brycedev.fern</string>
+			<key>default</key><integer>0</integer>
+            <key>key</key><string>appsViewStyle</string>
+            <key>PostNotification</key><string>com.brycedev.fern.prefschanged</string>
+            <key>validTitles</key><array>
+                <string>List View</string>
+                <string>Grid View</string>
+            </array>
+            <key>validValues</key><array>
+                <integer>0</integer>
+                <integer>1</integer>
+            </array>
+        </dict>
+		<dict>
+			<key>cell</key><string>PSSwitchCell</string>
+			<key>default</key><true/>
+			<key>defaults</key><string>com.brycedev.fern</string>
+			<key>key</key><string>iconLabels</string>
+			<key>label</key><string>Show Icon Labels (Grid)</string>
+			<key>PostNotification</key><string>com.brycedev.fern.prefschanged</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Interface</string>
+</dict>
+</plist>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key><string>PSGroupCell</string>
+			<key>label</key><string></string>
+            <key>footerText</key><string></string>
+		</dict>
+		<dict>
+			<key>cell</key><string>PSSwitchCell</string>
+			<key>default</key><true/>
+			<key>defaults</key><string>com.brycedev.fern</string>
+			<key>key</key><string>enabled</string>
+			<key>label</key><string>Enabled</string>
+			<key>PostNotification</key><string>com.brycedev.fern.prefschanged</string>
+		</dict>
+		<dict>
+			<key>cell</key><string>PSLinkCell</string>
+			<key>label</key><string>Activation Method</string>
+			<key>isController</key><true/>
+			<key>bundle</key><string>LibActivator</string>
+			<key>activatorListener</key><string>com.brycedev.fern.listener</string>
+		</dict>
+		<dict>
+			<key>cell</key><string>PSGroupCell</string>
+			<key>label</key><string>Adding Favorites :</string>
+            <key>footerText</key><string></string>
+		</dict>
+		<dict>
+			<key>cell</key><string>PSGroupCell</string>
+			<key>label</key><string>To add a favorite, hold and release the app you would like to add in the apps view. If you have vibration turned on, you will receive a haptic response. To remove an application, simply hold and release the app from the favorites view.</string>
+            <key>footerText</key><string></string>
+		</dict>
+		<dict>
+			<key>cell</key><string>PSGroupCell</string>
+			<key>label</key><string>Options</string>
+            <key>footerText</key><string></string>
+		</dict>
+		<dict>
+			<key>cell</key><string>PSLinkCell</string>
+			<key>detail</key><string>BDFInterfaceController</string>
+			<key>label</key><string>Configure Interface</string>
+		</dict>
+		<dict>
+			<key>cell</key><string>PSLinkCell</string>
+			<key>detail</key><string>BDFHideController</string>
+			<key>label</key><string>Hide Applications</string>
+		</dict>
+		<dict>
+			<key>cell</key><string>PSGroupCell</string>
+			<key>label</key>
+			<string>Developer : Bryce Jackson</string><key>footerText</key><string></string>
+		</dict>
+		<dict>
+			<key>cell</key><string>PSButtonCell</string>
+			<key>label</key><string>Twitter (@thebryc3isright)</string>
+			<key>action</key><string>openSupportTwitter</string>
+		</dict>
+		<dict>
+			<key>cell</key><string>PSButtonCell</string>
+			<key>label</key><string>Email (bryce@brycedev.com)</string>
+			<key>action</key><string>openSupportMail</string>
+		</dict>
+		<dict>
+			<key>cell</key><string>PSGroupCell</string>
+			<key>footerAlignment</key><integer>1</integer>
+			<key>footerText</key><string>© 2015 Bryce Jackson</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string></string>
+</dict>
+</plist>

@@ -1,0 +1,9 @@
+Package: com.brycedev.fern
+Name: Fern
+Depends: libactivator (>= 1.8.3), mobilesubstrate
+Version: 1.1.0
+Architecture: iphoneos-arm
+Description: Launch a beautiful, customizable app launcher from anywhere using an Activator action.
+Maintainer: Bryce Jackson
+Author: Bryce Jackson
+Section: Tweaks
